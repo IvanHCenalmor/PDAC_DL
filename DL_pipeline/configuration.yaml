@@ -1,0 +1,12 @@
+config:
+  dl4miceverywhere:
+    cuda_version: 11.8.0
+    cudnn_version: 8.6.0.163
+    description: Live microfluidics predictions
+    dl4miceverywhere_version: 2.1.0
+    notebook_url: https://raw.githubusercontent.com/CellMigrationLab/PDAC_DL/refs/heads/DL4MicEverywhere/DL_pipeline/Live_microfluidics_predictions.ipynb
+    notebook_version: 0.0.1
+    python_version: '3.11'
+    requirements_url:  https://raw.githubusercontent.com/CellMigrationLab/PDAC_DL/refs/heads/DL4MicEverywhere/DL_pipeline/requirements.txt
+    sections_to_remove: 1.2. 1.4.
+    ubuntu_version: '22.04'
